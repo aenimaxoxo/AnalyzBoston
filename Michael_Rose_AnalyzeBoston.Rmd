@@ -41,8 +41,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-![](https://i.imgur.com/6AFIuyh.jpg)
-
 # Abstract
 
 'Analyze Boston' is an open data initiative maintained by the city of Boston containing facts, figures, and maps related to the city. In this project we will look at some of the city's 133+ data sets and analyze them with descriptive and inferential statistics.The focus of the project is the discovery of interesting patterns. 
@@ -200,7 +198,6 @@ head(unique(earnings_2017$`DEPARTMENT NAME`))
 
 # Education Pay
 
-![](https://i.imgur.com/fDCnK5I.jpg)
 
 ```{r}
 earnings_2017 %>% 
@@ -218,8 +215,6 @@ The only other outlier that it shown is Elaine M McCabe with a base salary of $4
 \newpage
 
 # Police Pay
-
-![](https://i.imgur.com/eR420rW.jpg)
 
 
 First lets look at the how the pay is distributed across the police department. 
@@ -368,8 +363,6 @@ That being said though, police are an important and vital part of society. Lets 
 
 # Crime
 
-![](https://i.imgur.com/4PV7VAQ.jpg)
-
 
 ```{r}
 
@@ -446,8 +439,6 @@ for (i in seq_along(1:23)){
 
 
 # Shooting
-
-![](https://i.imgur.com/fq8U3IK.jpg)
 
 Lets take a look at the crimes involving shooting. The shooting column of the Crime Incidents Reports data indicates that a shooting took place. Lets take a look at the This data is from 2015 - 2018. 
 
@@ -579,8 +570,6 @@ From the second set of graphs related to gun recovery we see the following:
 
 # Economic Indicators
 
-![](https://i.imgur.com/X6SpjtO.png)
-
 Lets take a look at the Economic Indicators Dataset. This set contains information on 
 
 * Tourism/Flights 
@@ -602,7 +591,6 @@ unique(econ_indicators$total_jobs)
 
 # Flights / Tourism
 
-![](https://i.imgur.com/zCV6j7e.jpg)
 
 ```{r}
 logan_pass <- econ_indicators %>% 
@@ -636,7 +624,6 @@ From the graphs above we see the following trends:
 
 # Hotels
 
-![](https://i.imgur.com/bU2gqKE.jpg)
 
 ```{r}
 hotel_occ <- econ_indicators %>% 
@@ -672,7 +659,6 @@ From the graphs above we see the following trends:
 
 # Job Market
 
-![](https://i.imgur.com/yTkQ8iI.jpg)
 
 ```{r}
 unemp_rate <- econ_indicators %>% 
@@ -707,9 +693,6 @@ The graphs above show the following trends:
 \newpage
 
 # Real Estate Board Approved Development Projects
-
-
-![](https://i.imgur.com/5Rj2qz3.jpg)
 
 
 ```{r}
@@ -766,10 +749,6 @@ The graphs above show the following trends:
 \newpage
 
 # Housing
-
-
-![](https://i.imgur.com/Rgaf0mB.jpg)
-
 
 
 ```{r}
